@@ -1,0 +1,90 @@
+
+.header > .nav-buttons > .arrow-btn-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings  {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 230px;
+    width: 100%;
+    padding: 10px 5px 15px 5px;
+    border: 0;
+    border-radius: 17px;
+    -webkit-box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    -moz-box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    right: -19px;
+    text-align: left;
+    margin-top: 15px;
+    z-index: 2;
+    line-height: 0.7;
+  }
+
+  .header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings> .icon-arrow {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 20px;
+    padding-right: 10px;
+    height: 0vh;
+  }
+
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings a  {
+    color: black;
+    padding: 4px 8px;
+    text-decoration: none;
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings a:hover {
+    background-color: #f0f2f5;
+    border: 1px solid #f0f2f5;
+    border-radius: 10px;
+    width: 100%;
+    padding: 4px 8px;
+}
+
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings a:focus {
+    box-shadow: 0 0 0 4px rgba(0,132,255,.5);
+    background-color: #f0f0f0;
+    outline: 0;
+}
+
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings > .a {
+    color: black;
+    padding: 8px 0px 15px 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings > .a:hover {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0;
+    width: 100%;
+    padding: 8px 0px 15px 8px;
+    cursor: text;
+}
+
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings > .a:focus {
+    box-shadow: 0 0 0 0 rgba(255,255,255);
+    background-color: transparent;
+    outline: 0;
+}
+
+
+.header > .nav-buttons > .arrow-btn-dropdown:hover > .arrow-btn > .arrow-nav-settings {display: block;}
+
+.header > .nav-buttons > .arrow-btn-dropdown:active > .arrow-btn > .arrow-nav-settings {display: block;}
+
+

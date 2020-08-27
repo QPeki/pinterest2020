@@ -1,0 +1,221 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.content {
+    width: 100%;
+    min-width: 800px;
+    margin: 15px auto;
+}
+
+.content > .pins {
+    column-count: 6;
+    column-fill: auto;
+}
+
+
+.content > .pins > .pin {
+    display: inline-block;
+    margin: 0 10px; 
+    cursor: zoom-in;
+}
+
+
+.content > .pins > .pin img {
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 30px;
+    transition: all 0.2s linear;
+    overflow: hidden;
+}
+
+.content > .pins > .pin img:active {
+    position: relative;
+    transform: scale(1.15);
+    z-index: 2;
+}
+
+
+.content > .pins > .pin p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-align: center;
+    color: #333;
+}
+
+/*  OVERLAY AREA */
+
+
+.content > .pins > .pin {
+    display: inline-block;
+    margin: 0 10px; 
+    cursor: zoom-in;
+    position: relative;
+}
+
+.content > .pins > .pin:active {
+    max-zoom: 25%;
+}
+
+.content > .pins > .pin img {
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 30px;
+}
+
+.content > .pins > .pin p {
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: center;
+    color: #333; 
+}
+
+.content > .pins > .pin > .pin-btn  {
+    font-size: 0.8em;
+    position: absolute;
+    padding: 11px;
+    color: transparent;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all.2s ease-in-out;
+    cursor: pointer;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+}
+
+.content > .pins > .pin:hover > .pin-btn { 
+    background-color: #e60023;
+    color: white;
+    border: 2px solid transparent;
+    padding: 11px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all.2s ease-in-out;
+    cursor: pointer;   
+    outline: 0;
+}
+
+.content > .pins > .pin > .pin-btn:hover {
+    background-color: #b80b28;
+    color: white;
+}
+
+.content > .pins > .pin > .pin-btn:focus {
+    outline: 0;
+}
+
+/*  IMG Link area */
+
+
+.content > .pins > .pin > .link-container {
+    display: none;
+    position: absolute;
+   
+}
+
+.content > .pins > .pin:hover > .link-container {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all.2s ease-in-out;
+    cursor: pointer;
+}
+
+.content > .pins > .pin:hover > .link-container > .link-wrapper  {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all.2s ease-in-out;
+    cursor: pointer;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link {
+    padding: 3px 8px 3px 3px;
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    margin-right: 2px;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link:hover {
+    background-color: #fff;
+}
+
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #111;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+    width: 17px;
+    background-color: transparent;
+    border: 0;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+    color: #111;
+    opacity: 0.8;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+    margin: 0 4px;
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper >  .share-btn:hover {
+    background-color: #fff;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+   color: #111;
+   opacity: 0.8;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .dots-btn:hover {
+    background-color: #fff;
+}
+
+
+.content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+    color: #111;
+    opacity: 0.8;
+}
