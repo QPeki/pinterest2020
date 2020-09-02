@@ -1,0 +1,1051 @@
+
+@media  only screen and  (max-width: 1400px) {
+    .header {
+        margin-bottom: 25px;
+    }
+    
+    .header > .logo {
+        margin-left: 3px;
+    }
+
+    .header > .nav-list {
+        margin-right: 12px;
+        margin-left: -50px;
+            
+    }
+     
+    .header > .nav-list ul li a {
+        font-size: 14px;
+        margin-right: -12px;
+    }
+
+    
+    .header > .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: flex-start;
+    
+      z-index: 2;
+      line-height: 4;
+      
+    }
+      
+    .content {
+        margin-top: -10px;
+        margin-left: 5px;
+       
+    }
+
+    .content > .pins > .pin img {
+        min-width: 100px;
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .content > .pins > .pin p  {
+        text-align: center;
+    }
+
+    .content > .pins > .pin > .pin-btn {
+        font-size: 0.6em;
+        padding: 11px;
+        border: 2px solid transparent;
+        top: 10px;
+        right: 10px;
+    }
+    
+    
+    .content > .pins > .pin:hover > .pin-btn { 
+        border: 2px solid transparent;
+        padding: 11px;
+   
+    }
+
+    .content > .pins > .pin:hover > .link-container {
+        bottom: 40px;
+        left: 4px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link {
+        padding: 1px 4px 1px 1px;
+        margin-right: 1px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link a {
+        font-size: 12px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+        width: 15px;
+        margin: 0 2px;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+        width: 9px;
+        height: 9px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+        margin: 0 2px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+       width: 12px;
+       height: 12px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+        width: 25px;
+        height: 25px;
+        margin: 0 2px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+        width: 12px;
+        height: 12px;
+    }
+}
+ 
+
+@media  only screen and  (max-width: 1250px) {
+    .header {
+        margin-bottom: 25px;
+    }
+    
+    .header > .logo {
+        margin-left: 3px;
+    }
+
+    .header > .nav-list {
+        margin-right: 12px;
+        margin-left: -50px;
+            
+    }
+     
+    .header > .nav-list ul li a {
+        font-size: 14px;
+        margin-right: -12px;
+    }
+
+    .header > .search {
+        width: 61%;
+        top: -25px; 
+        position: relative;
+    }
+
+    .header > .search > .search-box {
+        height: 25px;
+        padding: 20px 25px 20px 28px;
+        margin-top: 35px;
+    }
+
+    .header > .search > .search-box:placeholder-shown {
+        font-size: 12px;
+    }
+
+    .header > .search > .search-icon {
+        bottom: 34px;
+        left: 13px;
+        width: 12px;
+    }
+
+    .header > .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: flex-start;
+      position: absolute;
+      right: -25px;  
+    }
+      
+
+    .header > .nav-buttons > .arrow-btn-dropdown {
+         margin-right: 15px;
+    }
+
+    .contact-grid-wrapper {
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: -10px;
+        margin-left: 5px;
+       
+    }
+
+    .content > .pins > .pin img {
+        min-width: 100px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .content > .pins > .pin p  {
+        text-align: center;
+    }
+
+    .content > .pins > .pin > .pin-btn {
+        font-size: 0.6em;
+        padding: 11px;
+        border: 2px solid transparent;
+        top: 10px;
+        right: 10px;
+    }
+    
+    
+    .content > .pins > .pin:hover > .pin-btn { 
+        border: 2px solid transparent;
+        padding: 11px;
+   
+    }
+
+    /* Link area */
+    
+    .content > .pins > .pin:hover > .link-container {
+        bottom: 45px;
+        left: 6px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link {
+        padding: 0px 6px 1px 0px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link a {
+        font-size: 7px;
+        text-align: left;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+        width: 5px;
+        margin: 0 -1px;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+        width: 5px;
+        height: 5px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+        margin: 0 1px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+       width: 9px;
+       height: 9px;
+       margin-left: -1px;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+        width: 9px;
+        height: 9px;
+        margin-left: -1px;
+    }
+}
+
+/*  //////////////////// */
+
+@media only screen and (max-width: 1100px) {
+    .header > .search {
+        width: 57%;
+    }
+}
+
+/*  //////////////////// */
+
+@media only screen and (max-width: 1000px) {
+    .header > .search {
+        width: 53%;
+    }
+}
+
+/*  //////////////////   */
+
+@media only screen and (max-width: 900px) {
+    .header > .search {
+        width: 45%;
+    }
+}
+
+/*  //////////////////// */
+
+@media only screen and (max-width: 776px) {
+    .header > .search {
+        width: 40%;
+    }
+}
+
+/*  //////////////////  */
+
+@media only screen and (max-width: 960px) {
+    .header {
+        margin-bottom: 25px;
+       
+    }
+    
+    .header > .logo {
+        margin-left: 3px;
+    }
+
+    .header > .nav-list {
+        margin-right: 12px;
+        margin-left: -50px;
+    }
+     
+    .header > .nav-list ul li a {
+        font-size: 14px;
+        margin-right: -12px;
+    }
+
+    /* .header > .search {
+        width: 39.4%;
+    } */
+
+    .header > .search > .search-box {
+        height: 25px;
+        padding: 20px 25px 20px 28px;
+        margin-top: 35px;
+    }
+
+    .header > .search > .search-box:placeholder-shown {
+        font-size: 12px;
+    }
+
+    .header > .search > .search-icon {
+        bottom: 34px;
+        left: 13px;
+        width: 12px;
+    }
+
+    .header > .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: flex-start;
+      right: -25px;
+      position: absolute;
+    }
+      
+
+    .header > .nav-buttons > .arrow-btn-dropdown {
+         margin-right: 15px;
+    }
+
+    .contact-grid-wrapper {
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: -10px;
+        margin-left: 5px;
+       
+    }
+
+    .content > .pins {
+        column-count: 5;
+        column-fill: auto;
+        column-gap: 5px;
+        flex-flow: row wrap;
+        position: absolute;
+     }
+    
+
+    .content > .pins > .pin img {
+        min-width: 100px;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .content > .pins > .pin p  {
+        text-align: center;
+    }
+
+    .content > .pins > .pin > .pin-btn {
+        font-size: 0.6em;
+        padding: 11px;
+        border: 2px solid transparent;
+        top: 10px;
+        right: 10px;
+    }
+    
+    
+    .content > .pins > .pin:hover > .pin-btn { 
+        border: 2px solid transparent;
+        padding: 11px;
+   
+    }
+
+    /*  Link area */
+
+    .content > .pins > .pin:hover > .link-container {
+        display: flex;
+     
+    }
+    
+    .content > .pins > .pin:hover > .link-container > .link-wrapper  {
+        display: flex;
+    }
+
+    .content > .pins > .pin:hover > .link-container {
+        bottom: 45px;
+        left: 3px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link {
+        padding: 0px 6px 1px 0px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link a {
+        font-size: 7px;
+        text-align: left;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+        width: 5px;
+        margin: 0 -1px;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+        width: 5px;
+        height: 5px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+        margin: 0 1px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+       width: 9px;
+       height: 9px;
+       margin-left: -1px;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+        width: 9px;
+        height: 9px;
+        margin-left: -1px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .content > .pins > .pin:hover > .link-container {
+        display: none;
+   
+    }
+    
+    .content > .pins > .pin:hover > .link-container > .link-wrapper  {
+        display: none;
+       
+    }
+
+    .header > .logo {
+        margin-left: 3px;
+    }
+
+    .header > .nav-list {
+        z-index: 3;
+        margin-right: 12px;
+        margin-left: -50px;
+    }
+
+    .header > .search {
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header {
+        margin-bottom: 25px;
+       
+    }
+
+    .header > .logo {
+        margin-left: 3px;
+    }
+
+    .header > .nav-list {
+        margin-right: 12px;
+        margin-left: -55px;
+        margin-top: 15px;
+    }
+     
+    .header > .nav-list ul li a {
+        font-size: 14px;
+        margin-right: -15px;
+    }
+
+    .header > .search {
+        width: 31%;
+        float: left;
+        top: -30px;
+        position: relative;
+    }
+
+    .header > .search > .search-box {
+        height: 25px;
+        padding: 20px 25px 20px 28px;
+        margin-top: 35px;
+    }
+
+    .header > .search > .search-box:placeholder-shown {
+        font-size: 12px;
+    }
+
+    .header > .search > .search-icon {
+        bottom: 34px;
+        left: 13px;
+        width: 12px;
+    }
+
+    .header > .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: flex-start;
+        position: absolute;
+        top: -8px;
+        z-index: 2;
+        right: -25px;
+    }
+      
+
+    .header > .nav-buttons > .arrow-btn-dropdown {
+         margin-right: 15px;
+    }
+
+    .contact-grid-wrapper {
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: -10px;
+        margin-left: 5px;
+       
+    }
+
+    .content > .pins {
+        column-count: 4;
+        column-fill: auto;
+        column-gap: 5px;
+        flex-flow: row wrap;
+        position: absolute;
+     }
+    
+
+    .content > .pins > .pin img {
+        max-width: 250px;
+        min-width: 100px;
+        width: 100%;
+    }
+
+    .content > .pins > .pin p  {
+        text-align: center;
+    }
+
+    /* Link area */
+
+    .content > .pins > .pin:hover > .link-container {
+        display: flex;
+     
+    }
+    
+    .content > .pins > .pin:hover > .link-container > .link-wrapper  {
+        display: flex;
+    }
+
+    .content > .pins > .pin:hover > .link-container {
+        bottom: 45px;
+        left: 6px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link {
+        padding: 0px 6px 1px 0px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link a {
+        font-size: 7px;
+        text-align: left;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+        width: 5px;
+        margin: 0 -1px;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+        width: 5px;
+        height: 5px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+        margin: 0 1px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+       width: 9px;
+       height: 9px;
+       margin-left: -1px;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+        width: 9px;
+        height: 9px;
+        margin-left: -1px;
+    }
+
+    
+}
+
+/*  /////   */
+
+
+
+@media only screen and  (max-width: 600px) {
+    .header {
+        margin-bottom: 25px;
+       
+    }
+
+    .header > .nav-list {
+        position: fixed;
+        top: 686px;
+        z-index: 3;
+        padding-left: 15px;
+        line-height: 2;
+            
+    }
+     
+    .header > .nav-list ul li a {
+        font-size: 14px;
+        margin-right: -12px;
+    }
+
+    .header > .search {
+        width: 82%;
+        float: left;
+        top: -25px;
+        position: relative;
+        right: 5px;
+    }
+
+    .header > .search > .search-box {
+        height: 25px;
+        padding: 20px 25px 20px 28px;
+        margin-top: 35px;
+    }
+
+    .header > .search > .search-box:placeholder-shown {
+        font-size: 12px;
+    }
+
+    .header > .search > .search-icon {
+        bottom: 34px;
+        left: 13px;
+        width: 12px;
+    }
+
+    .header > .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: flex-start;
+      position: fixed;
+      top: 650px;
+      z-index: 2;
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      left: 5px;
+      line-height: 4;
+      margin-top: 30px;
+    }
+      
+
+    .header > .nav-buttons > .arrow-btn-dropdown {
+         margin-right: 15px;
+    }
+
+    .contact-grid-wrapper {
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: 0px;
+        margin-left: 20px;
+       
+    }
+
+    .content > .pins {
+        column-count: 2;
+        column-fill: auto;
+	 }
+
+    .content > .pins > .pin img {
+        max-width: 250px;
+        min-width: 140px;
+        width: 100%;
+    }
+    
+    .content > .pins > .pin p {
+        text-align: left;
+    }
+
+    /* Link area */
+
+    .content > .pins > .pin:hover > .link-container {
+        display: flex;
+     
+    }
+    
+    .content > .pins > .pin:hover > .link-container > .link-wrapper  {
+        display: flex;
+    }
+
+    .content > .pins > .pin:hover > .link-container {
+        bottom: 45px;
+        left: 6px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link {
+        padding: 0px 6px 1px 0px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link a {
+        font-size: 7px;
+        text-align: left;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+        width: 5px;
+        margin: 0 -1px;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+        width: 5px;
+        height: 5px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+        margin: 0 1px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+       width: 9px;
+       height: 9px;
+       margin-left: -1px;
+
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+        width: 9px;
+        height: 9px;
+        margin-left: -1px;
+    }
+
+    /*  Drop down area  */
+    
+    .header > .nav-buttons > .bell-btn-dropdown > .bell-btn > .bell-nav-settings {
+        top: -610px;
+        right: -130px;
+        width: 300px;
+    }
+
+    .header > .nav-buttons > .inbox-btn-dropdown > .inbox-btn > .inbox-nav-settings {
+        top: -650px;
+        right: -70px;
+        width: 300px;
+    }
+
+    @keyframes example {
+        from {left: 100px;}
+        to {left: 100px;}
+    }
+
+    .header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings {
+        top: -400px;
+        right: -15px;
+    }
+    
+}
+
+
+/*  /////////////////////////////  */
+
+@media only screen and  (max-width: 380px) {
+    .header {
+        margin-bottom: 25px;
+       
+    }
+
+    .header > .nav-list {
+        position: fixed;
+        top: 710px;
+        z-index: 3;
+        padding-left: 15px;
+        line-height: 2;
+    }
+     
+    .header > .nav-list ul li a {
+        font-size: 14px;
+        margin-right: -12px;
+    }
+
+    .header > .search {
+        width: 70%;
+        float: left;
+    }
+
+    .header > .search > .search-box {
+        height: 25px;
+        padding: 20px 25px 20px 28px;
+        margin-top: 35px;
+    }
+
+    .header > .search > .search-box:placeholder-shown {
+        font-size: 12px;
+    }
+
+    .header > .search > .search-icon {
+        bottom: 34px;
+        left: 13px;
+        width: 12px;
+    }
+
+    .header > .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: flex-start;
+      position: fixed;
+      top: 650px;
+      z-index: 2;
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      left: 5px;
+      line-height: 4;
+      margin-top: 30px;
+    }
+      
+
+    .header > .nav-buttons > .arrow-btn-dropdown {
+         margin-right: 15px;
+    }
+
+    .contact-grid-wrapper {
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: -15px;
+        margin-left: 20px;
+       
+    }
+
+    .content > .pins {
+        column-count: 1;
+        column-fill: auto;
+	 }
+
+    .content > .pins > .pin img {
+        max-width: 280px;
+        min-width: 100px;
+        width: 100%;
+    }
+    
+    .content > .pins > .pin p {
+        text-align: left;
+    }
+
+    /*  Link area  */
+    
+    .content > .pins > .pin:hover > .link-container {
+        display: flex;
+        position: relative;
+        bottom: 50px;
+        left: 10px;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all.2s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .content > .pins > .pin:hover > .link-container > .link-wrapper  {
+        display: flex;
+        position: absolute;
+        justify-content: space-evenly;
+        align-items: center;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all.2s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link {
+        padding: 3px 8px 3px 3px;
+        border: 1px solid #f0f0f0;
+        background-color: #f0f0f0;
+        border-radius: 30px;
+        margin-right: 2px;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link:hover {
+        background-color: #fff;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link a {
+        text-decoration: none;
+        font-size: 0.8em;
+        color: #111;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+        width: 17px;
+        background-color: transparent;
+        border: 0;
+        margin: 0 2px;
+        cursor: pointer;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+        color: #111;
+        opacity: 0.8;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+        margin: 0 4px;
+        border: 1px solid #f0f0f0;
+        background-color: #f0f0f0;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn:hover {
+        background-color: #fff;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+       color: #111;
+       opacity: 0.8;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+        border: 1px solid #f0f0f0;
+        background-color: #f0f0f0;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin: 0 4px;
+        cursor: pointer;
+    }
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn:hover {
+        background-color: #fff;
+    }
+    
+    
+    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+        color: #111;
+        opacity: 0.8;
+    }
+
+    /*  Drop down area  */
+
+    .header > .nav-buttons > .bell-btn-dropdown > .bell-btn > .bell-nav-settings {
+        top: -610px;
+        right: -250px;
+        width: 300px;
+    }
+
+    .header > .nav-buttons > .inbox-btn-dropdown > .inbox-btn > .inbox-nav-settings {
+        top: -650px;
+        right: -250px;
+        width: 300px;
+    }
+
+    @keyframes example {
+        from {left: 100px;}
+        to {left: 100px;}
+    }
+
+    .header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings {
+        top: -400px;
+        right: -70px;
+    }
+}
+
+
+
+
