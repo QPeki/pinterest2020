@@ -659,7 +659,7 @@
 
     .header > .nav-list {
         position: fixed;
-        top: 686px;
+        top: 600px;
         z-index: 3;
         padding-left: 15px;
         line-height: 2;
@@ -703,7 +703,7 @@
       align-items: center;
       align-content: flex-start;
       position: fixed;
-      top: 650px;
+      top: 570px;
       z-index: 2;
       background-color: #fff;
       width: 100%;
@@ -844,7 +844,7 @@
 
     .header > .nav-list {
         position: fixed;
-        top: 710px;
+        top: 587px;
         z-index: 3;
         padding-left: 15px;
         line-height: 2;
@@ -884,7 +884,7 @@
       align-items: center;
       align-content: flex-start;
       position: fixed;
-      top: 650px;
+      top: 520px;
       z-index: 2;
       background-color: #fff;
       width: 100%;
