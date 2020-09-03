@@ -976,11 +976,11 @@
         background-color: #fff;
     }
     
-    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+/*     .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
        color: #111;
        opacity: 0.8;
     }
-    
+     */
     .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
         border: 1px solid #f0f0f0;
         background-color: #f0f0f0;
