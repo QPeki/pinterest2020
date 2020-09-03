@@ -846,7 +846,6 @@
     }
 
     .header > .search {
-        /* width: 70%; */
         float: left;
     }
 
@@ -888,18 +887,6 @@
         margin-left: 20px;
        
     }
-/* 
-    .content > .pins {
-        column-count: 1;
-        column-fill: auto;
-     }
-     
-     .content > .pins > .pin {
-        display: flex;
-        flex-flow: column wrap;
-        align-content: center;
-        align-items: center;
-     } */
 
     .content > .pins > .pin img {
         max-width: 280px;
