@@ -1004,6 +1004,10 @@
     .footer {
         height: 100px;
     }
+	
+   .header > .nav-buttons > .bell-btn-dropdown > .bell-btn > .bell-nav-settings {
+        padding: 30px;
+    }
 }
 
 
