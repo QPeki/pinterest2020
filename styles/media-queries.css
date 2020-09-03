@@ -976,11 +976,20 @@
         background-color: #fff;
     }
     
-/*     .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
-       color: #111;
-       opacity: 0.8;
-    }
-     */
+/*     .content > .pins {
+        column-count: 1;
+        column-fill: auto;
+     }
+     
+    .content > .pins > .pin {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        align-items: center;
+     } */
+
+
+	
     .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
         border: 1px solid #f0f0f0;
         background-color: #f0f0f0;
