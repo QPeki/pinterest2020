@@ -888,11 +888,6 @@
        
     }
 
-    .content > .pins {
-        column-count: 1;
-        column-fill: auto;
-	 }
-
     .content > .pins > .pin img {
         max-width: 280px;
         min-width: 100px;
