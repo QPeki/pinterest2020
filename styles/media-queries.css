@@ -846,6 +846,7 @@
     }
 
     .header > .search {
+        /* width: 70%; */
         float: left;
     }
 
@@ -887,6 +888,18 @@
         margin-left: 20px;
        
     }
+/* 
+    .content > .pins {
+        column-count: 1;
+        column-fill: auto;
+     }
+     
+     .content > .pins > .pin {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        align-items: center;
+     } */
 
     .content > .pins > .pin img {
         max-width: 280px;
@@ -898,103 +911,70 @@
         text-align: left;
     }
 
-    /*  Link area  */
-    
-    .content > .pins > .pin:hover > .link-container {
-        display: flex;
-        position: relative;
-        bottom: 50px;
-        left: 10px;
-        -webkit-transition: all .2s ease-in-out;
-        transition: all.2s ease-in-out;
-        cursor: pointer;
-    }
-    
-    .content > .pins > .pin:hover > .link-container > .link-wrapper  {
-        display: flex;
-        position: absolute;
-        justify-content: space-evenly;
-        align-items: center;
-        -webkit-transition: all .2s ease-in-out;
-        transition: all.2s ease-in-out;
-        cursor: pointer;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .link {
-        padding: 3px 8px 3px 3px;
-        border: 1px solid #f0f0f0;
-        background-color: #f0f0f0;
-        border-radius: 30px;
-        margin-right: 2px;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .link:hover {
-        background-color: #fff;
-    }
-    
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .link a {
-        text-decoration: none;
-        font-size: 0.8em;
-        color: #111;
-        font-weight: 700;
-        text-align: left;
-        cursor: pointer;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
-        width: 17px;
-        background-color: transparent;
-        border: 0;
-        margin: 0 2px;
-        cursor: pointer;
-    }
-    
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
-        color: #111;
-        opacity: 0.8;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
-        margin: 0 4px;
-        border: 1px solid #f0f0f0;
-        background-color: #f0f0f0;
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper >  .share-btn:hover {
-        background-color: #fff;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
-       color: #111;
-       opacity: 0.8;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
-        border: 1px solid #f0f0f0;
-        background-color: #f0f0f0;
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        margin: 0 4px;
-        cursor: pointer;
-    }
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn:hover {
-        background-color: #fff;
-    }
-    
-    
-    .content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
-        color: #111;
-        opacity: 0.8;
-    }
+   /* Link area */
 
+   .content > .pins > .pin:hover > .link-container {
+    display: flex;
+ 
+}
+
+.content > .pins > .pin:hover > .link-container > .link-wrapper  {
+    display: flex;
+}
+
+.content > .pins > .pin:hover > .link-container {
+    bottom: 45px;
+    left: 6px;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link {
+    padding: 0px 6px 1px 0px;
+    margin-right: 1px;
+    border-radius: 10px;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link a {
+    font-size: 7px;
+    text-align: left;
+
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn {
+    width: 5px;
+    margin: 0 -1px;
+}
+
+
+.content > .pins > .pin > .link-container > .link-wrapper > .link > .arrow-link-btn > .arrow-link {
+    width: 5px;
+    height: 5px;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper >  .share-btn {
+    margin: 0 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .share-btn > .share {
+   width: 9px;
+   height: 9px;
+   margin-left: -1px;
+
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .dots-btn {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+.content > .pins > .pin > .link-container > .link-wrapper > .dots-btn > .dots {
+    width: 9px;
+    height: 9px;
+    margin-left: -1px;
+}
+    
     /*  Drop down area  */
 
     .header > .nav-buttons > .bell-btn-dropdown > .bell-btn > .bell-nav-settings {
