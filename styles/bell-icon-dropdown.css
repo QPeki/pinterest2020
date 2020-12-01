@@ -24,13 +24,7 @@
     right: -150px;
 }
 
-.header > .nav-buttons > .bell-btn-dropdown:active > .bell-btn > .bell-nav-settings {
-    display: block;
-}
-
-.header > .nav-buttons > .bell-btn-dropdown:hover > .bell-btn > .bell-nav-settings {
-    display: block;
-}
+.header > .nav-buttons > .bell-btn-dropdown > .bell-btn > .bell-nav-settings.show {display: block;} 
 
 h1 {
     color: #000;
