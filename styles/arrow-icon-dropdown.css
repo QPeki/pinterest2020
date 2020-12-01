@@ -58,7 +58,7 @@
     outline: 0;
 }
 
-.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn> .arrow-nav-settings > .a {
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn > .arrow-nav-settings > .a {
     color: black;
     padding: 8px 0px 15px 8px;
     text-decoration: none;
@@ -82,9 +82,4 @@
     outline: 0;
 }
 
-
-.header > .nav-buttons > .arrow-btn-dropdown:hover > .arrow-btn > .arrow-nav-settings {display: block;}
-
-.header > .nav-buttons > .arrow-btn-dropdown:active > .arrow-btn > .arrow-nav-settings {display: block;}
-
-
+.header > .nav-buttons > .arrow-btn-dropdown > .arrow-btn > .arrow-nav-settings.show {display: block;}
